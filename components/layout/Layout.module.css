@@ -1,0 +1,9 @@
+.main {
+  background-color: var(--black);
+  margin: 0;
+  position: relative;
+  padding: 0;
+  z-index: 2;
+  margin-bottom: -25px;
+  min-height: 600px;
+}

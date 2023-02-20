@@ -1,0 +1,21 @@
+.item{
+    border: 1px solid #828b93;
+    padding: 8px 12px ;
+    border-radius: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.item.active{
+    border-color: aqua;
+}
+
+.item > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item > div p:first-child{
+    color: #828b93;
+}

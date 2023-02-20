@@ -1,0 +1,33 @@
+.provider-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  max-width: 350px;
+  background-color: #343434;
+  border-radius: 1rem;
+  margin-block: 12px;
+  border: 2px solid #0000;
+  margin-inline: auto;
+  cursor: pointer;
+}
+
+.provider-item:hover {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(
+      101deg,
+      var(--purple),
+      var(--green-blue),
+      var(--orange-yellow)
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #343434 inset;
+}
+
+.provider-item p {
+  margin: 0;
+}

@@ -1,0 +1,32 @@
+.container {
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+
+.dropdowns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dropdowns > button {
+  margin-bottom: 15px;
+  margin-right: 16px;
+}
+
+.container h5 {
+  min-width: 50px;
+  margin: 0;
+  font-size: smaller;
+  color: #828b93;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container p {
+    display: none;
+  }
+  .container h5 {
+    display: none;
+  }
+}

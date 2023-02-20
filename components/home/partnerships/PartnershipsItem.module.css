@@ -1,0 +1,48 @@
+.item {
+  margin-inline: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22%;
+  position: relative;
+  padding-inline: 10px;
+  background-color: rgba(43, 43, 43, 0.64);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  min-width: 100px;
+  margin-bottom: 36px;
+  margin-inline: 12px;
+}
+
+.item img {
+  object-fit: contain;
+  max-width: 90%;
+}
+
+.item .normal-image {
+  margin-block: 1rem 0.5rem;
+}
+
+.item .blur-image {
+  margin-block: 1rem 0.5rem;
+  filter: blur(1.5px);
+  -webkit-filter: blur(8px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-inline: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    width: 20%;
+    margin-block: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .item {
+    width: 25%;
+  }
+}

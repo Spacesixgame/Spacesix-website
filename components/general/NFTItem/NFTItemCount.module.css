@@ -1,0 +1,6 @@
+.count {
+  display: flex;
+  color: #828b93;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}

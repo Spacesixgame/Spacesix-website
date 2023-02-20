@@ -1,0 +1,13 @@
+.upcomming-events__list {
+  display: flex;
+  margin: 3rem auto;
+  gap: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  .upcomming-events__list {
+    flex-wrap: wrap;
+  }
+}

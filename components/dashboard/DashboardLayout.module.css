@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.main {
+  padding-block: 2rem 5rem;
+  padding-inline: 2rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .main {
+    padding-block: 0 0rem;
+    padding-inline: 1rem;
+  }
+}

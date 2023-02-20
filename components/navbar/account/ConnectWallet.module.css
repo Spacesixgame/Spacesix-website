@@ -1,0 +1,54 @@
+.connect-wallet__button:hover {
+  color: #000;
+  background-color: var(--green-blue);
+  border: solid 2px var(--green-blue);
+}
+
+.connect-wallet__button {
+  padding: 12px 24px;
+  font-size: medium;
+  color: #fff;
+  background-color: inherit;
+  border: solid 2px white;
+  border-radius: 12px;
+}
+
+.connect-wallet__button:hover {
+  color: #000;
+  background-color: var(--green-blue);
+  border: solid 2px var(--green-blue);
+}
+
+.web3-modal__dialog {
+  transform: translate(-50%, -50%);
+  top: 20%;
+}
+
+.web3-modal__dialog > div {
+  background-color: #212121 !important;
+}
+
+.modal__close-btn {
+  background-color: #3e3e3e;
+  padding: 0;
+  border-radius: 50%;
+  position: absolute;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: smaller;
+  width: 25px;
+  top: -12px;
+  right: 5%;
+}
+
+.modal__close-btn svg path {
+  stroke: #fff;
+}
+
+@media screen and (max-width: 998px) {
+  .web3-modal__dialog {
+    max-width: 90%;
+  }
+}

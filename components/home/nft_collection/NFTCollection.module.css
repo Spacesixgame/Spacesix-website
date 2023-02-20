@@ -1,0 +1,87 @@
+.nft-collection {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.nft-collection .lottie1 {
+  width: 300px;
+  transform: translate(50%, -70%);
+  position: absolute;
+  top: 0;
+  right: 45%;
+}
+
+.nft-collection .lottie2 {
+  width: 300px;
+  transform: translate(0, -70%);
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .nft-collection {
+    padding: 2rem 2rem;
+  }
+
+  .nft-collection .lottie1 {
+    width: 200px;
+    transform: translate(50%, -90%);
+    position: absolute;
+    top: 0;
+    right: 50%;
+  }
+
+  .nft-collection .lottie2 {
+    width: 200px;
+    transform: translate(0, 0);
+    position: absolute;
+    top: -10%;
+    left:0;
+    z-index: 1;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .nft-collection {
+    padding: 2rem 2rem;
+  }
+
+  .nft-collection .lottie1 {
+    width: 200px;
+    transform: translate(50%, -90%);
+    position: absolute;
+    top: 0;
+    right: 50%;
+  }
+
+  .nft-collection .lottie2 {
+    width: 100px;
+    transform: translate(0, 0);
+    position: absolute;
+    top: -10%;
+    left: 0;
+    z-index: 1;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .nft-collection .lottie1 {
+    width: 100px;
+    transform: translate(50%, -80%);
+    position: absolute;
+    top: 0;
+    right: 50%;
+  }
+
+  .nft-collection .lottie2 {
+    width: 100px;
+    transform: translate(0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}

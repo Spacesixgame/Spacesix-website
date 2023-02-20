@@ -1,0 +1,18 @@
+.filter-btn {
+  border: 1px solid #444444;
+  border-radius: 12px;
+  padding: 0.3rem 1.2rem;
+  max-width: 120px;
+  height: 40px;
+  color: #fff;
+  font-size: smaller;
+}
+
+.filter-btn .icon {
+  margin-right: 5px;
+}
+
+.filter-btn:hover {
+  color: white;
+  border-color: white;
+}

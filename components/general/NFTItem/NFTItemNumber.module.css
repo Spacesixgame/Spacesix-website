@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: 100%;
+  background-color: #212121;
+  border: 1px solid #444444;
+  margin-top: 16px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.container Button {
+  width: 20%;
+  border-radius: none;
+  color: var(--black);
+  font-size: large;
+  margin: 0;
+  border-radius: 0;
+  background: radial-gradient(
+    100% 772.84% at 100% 0%,
+    var(--orange-yellow) 0%,
+    var(--purple) 49.37%,
+    var(--green-blue) 100%
+  );
+}
+
+.container.disable {
+  opacity: 0.6;
+}
+
+.container Button:disabled {
+  background: #333333;
+  color: #737373;
+}
+
+.container .number {
+  width: 100%;
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}

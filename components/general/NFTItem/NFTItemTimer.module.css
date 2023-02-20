@@ -1,0 +1,32 @@
+.timer {
+  background: rgba(43, 43, 43, 0.589);
+  backdrop-filter: blur(8px);
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: 80%;
+  position: absolute;
+  top: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timer > p.times {
+  width: 100%;
+  background: radial-gradient(#f9d267 10%, #f2adff 49.37%, #acf0ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.timer > p {
+  color: #adb8c1;
+}
+
+@media screen and (max-width: 768px) {
+  .timer > p.times {
+    font-size: large;
+  }
+}

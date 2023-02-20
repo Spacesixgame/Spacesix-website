@@ -1,0 +1,59 @@
+@import url("styles/fonts.css");
+@import url("styles/reset.css");
+@import url("styles/elements.css");
+@import url("styles/buttons.css");
+@import url("styles/animations.css");
+
+* {
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+:root {
+  --purple: #f2adff;
+  --green-blue: #acf0ff;
+  --orange-yellow: #f9d267;
+  /* --black: rgba(21, 21, 21, 1); */
+  --black: #161516;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+}
+
+body {
+  color: #fff;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+div,
+p,
+button {
+  color: #fff;
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  --bs-btn-focus-shadow-rgb: none;
+}
+
+figure {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin-bottom: 0 !important;
+}

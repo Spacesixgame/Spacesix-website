@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.list .lottie1{
+  position: absolute;
+  width: 40%;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50% , 0);
+}
+
+@media screen and (max-width: 768px) {
+  .list .lottie1{
+    top: 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .list .lottie1{
+    top: 60px;
+  }
+}

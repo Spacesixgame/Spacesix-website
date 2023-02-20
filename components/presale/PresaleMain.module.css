@@ -1,0 +1,39 @@
+.presale-main {
+  padding-block: 1rem;
+  position: relative;
+  height: 100%;
+}
+
+.presale-main .lottie1{
+  width: 300px;
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
+@media screen and (max-width: 425px){
+  .presale-main .lottie1{
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .presale-main .lottie1{
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .presale-main .lottie1{
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+  }
+}

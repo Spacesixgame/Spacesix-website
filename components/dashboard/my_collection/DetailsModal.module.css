@@ -1,0 +1,16 @@
+.details > div {
+  margin-block: 1rem;
+}
+
+.details div {
+  display: flex;
+}
+
+.details div h5 {
+  color: #828b93;
+  margin-right: 10px;
+}
+.copy {
+  color: #828b93;
+  margin-left: 5px;
+}

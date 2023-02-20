@@ -1,0 +1,30 @@
+.detail {
+  width: 60%;
+  text-align: left;
+  padding-inline: 40px 20px;
+  padding-top: 20px;
+}
+
+.detail .title {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.detail .description {
+  color: #828b93;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 998px) {
+  .detail {
+    padding-inline: 16px 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .detail {
+    width: 100%;
+    padding-inline: 0;
+    padding-bottom: 16px;
+  }
+}

@@ -1,0 +1,88 @@
+.container {
+    text-align: start;
+    width: 100%;
+    padding-block: 2rem 2rem;
+    position: relative;
+}
+
+
+.slider{
+    width: 100%;
+    max-width: 500px;
+}
+
+.container .lottie1 {
+    width: 150px;
+    position: absolute;
+    right: 40%;
+    transform: translate(50%, 0);
+    top: -10%;
+}
+
+.container > h5.title {
+    min-width: 50px;
+    margin: 0;
+    font-size: smaller;
+    color: #828b93;
+    margin-bottom: 1.5rem;
+}
+
+.container h5 {
+    min-width: 50px;
+    margin: 0;
+    font-size: smaller;
+    color: #828b93;
+    margin-bottom: 0.75rem;
+}
+
+.sliders {
+    display: flex;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.sliders > div {
+    width: 50%;
+    max-width: 400px;
+    margin-right: 1rem;
+    animation-name: fadeInUp;
+    animation-duration: 0.5s;
+}
+
+
+@media screen and (max-width: 425px) {
+    .container .lottie1 {
+        width: 100px;
+        position: absolute;
+        right: 20%;
+        transform: translate(50%, 0);
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .container .lottie1 {
+        right: 10%;
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container .lottie1 {
+        width: 100px;
+        position: absolute;
+        right: 10%;
+        transform: translate(50%, 0);
+        top: -55px;
+        background-color: #fff;
+
+    }
+}

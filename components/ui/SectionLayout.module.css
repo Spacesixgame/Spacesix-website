@@ -1,0 +1,61 @@
+.section-layout {
+  text-align: center;
+  margin: 0 0;
+  padding: 6rem 5rem;
+}
+
+div.header .title {
+  letter-spacing: 0.05em;
+  font-family: "Ubuntu";
+  display: flex;
+  font-weight: lighter;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+div.header .title span {
+  background: radial-gradient(
+    100% 772.84% at 100% 0%,
+    #f9d267 0%,
+    #f2adff 49.37%,
+    #acf0ff 100%
+  );
+  font-size: inherit;
+  font-family: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-inline: 0.5rem;
+  
+  font-weight: 600;
+}
+
+.header > p {
+  color: #828b93;
+  max-width: 700px;
+  margin: auto;
+  margin-block: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.section-layout .main {
+  margin-block: 2rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .section-layout {
+    padding: 6rem 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-layout {
+    text-align: center;
+    margin: 0 0;
+    padding: 5rem 1rem;
+  }
+}

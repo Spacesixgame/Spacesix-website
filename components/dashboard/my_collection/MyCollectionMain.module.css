@@ -1,0 +1,11 @@
+.main {
+  position: relative;
+  height: 100%;
+}
+
+h4.message {
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}

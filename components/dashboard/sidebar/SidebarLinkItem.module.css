@@ -1,0 +1,22 @@
+.item {
+  color: #828b93;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: #33333358;
+}
+
+.item .icon {
+  font-size: large;
+}
+
+.item.active {
+  color: #fff;
+  font-weight: bold;
+  background: #333333;
+}

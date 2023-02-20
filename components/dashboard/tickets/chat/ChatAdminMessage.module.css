@@ -1,0 +1,13 @@
+.admin-message {
+  background-color: #212121;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+
+.admin-message p {
+  color: #828b93;
+}
+
+.admin-message p:first-child {
+  font-size: smaller;
+}

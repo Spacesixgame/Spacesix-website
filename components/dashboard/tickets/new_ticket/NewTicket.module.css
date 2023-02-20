@@ -1,0 +1,16 @@
+.action {
+  color: var(--black);
+}
+
+.new-button {
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: smaller;
+}
+
+.modal {
+  min-width: 60%;
+  top: 3rem;
+  margin-bottom: 5rem;
+}

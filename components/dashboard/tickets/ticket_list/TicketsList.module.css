@@ -1,0 +1,39 @@
+.table {
+  margin-block: 24px;
+  border-radius: 16px;
+}
+
+.thead th {
+  background-color: #333333;
+  outline: none;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.thead th.date {
+  text-align: center;
+}
+
+.tbody td {
+  padding: 12px 16px;
+}
+
+.table .thead th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.table th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.table th:last-child,
+.table td:last-child {
+  width: 10%;
+  /* font-size: large; */
+}
+
+@media screen and (max-width: 768px) {
+  .thead th {
+    padding: 8px 16px;
+  }
+}

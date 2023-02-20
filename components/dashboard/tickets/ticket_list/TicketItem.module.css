@@ -1,0 +1,47 @@
+.item {
+  border-bottom: 1px solid #444444;
+}
+
+.item:last-child {
+  border: none;
+}
+
+.topic {
+  width: 100%;
+}
+td.topic {
+  text-decoration: underline;
+}
+
+.date {
+  min-width: 130px;
+  text-align: center;
+}
+
+td.date p {
+  color: #828b93;
+}
+
+/* td.trash {
+  min-width: 100px;
+  text-align: right;
+}
+
+td.trash button {
+  margin: 0;
+  padding: 0;
+}
+
+td .icon {
+  font-size: large;
+  margin-inline: auto 8px;
+  color: #ef4444;
+  cursor: pointer;
+} */
+
+@media screen and (max-width: 768px) {
+  .item td {
+    margin: 0;
+    padding: 8px;
+  }
+}

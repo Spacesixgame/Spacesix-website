@@ -1,0 +1,25 @@
+.hero__technologies-tehnology-list {
+  list-style: none;
+}
+
+.hero__technologies p {
+  color: #828b93;
+}
+
+.hero__technologies .hero__technologies-tehnology-list {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__technologies .hero__technologies-tehnology-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero__technologies .hero__technologies-tehnology-list .technology-item {
+    margin-block: 1rem;
+  }
+}

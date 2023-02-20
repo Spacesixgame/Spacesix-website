@@ -1,0 +1,22 @@
+.snowflake {
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  /* left: 10%; */
+  top: -30px;
+  z-index: -1;
+  animation: snowfall 8s linear infinite;
+}
+
+@keyframes snowfall {
+  0% {
+    /* transform: translate3d(0, 0, 0); */
+    top: -20px;
+  }
+  100% {
+    /* transform: translate3d(0, 100%, 0); */
+    top: 100%;
+  }
+}

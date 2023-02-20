@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  padding: 12px 16px;
+  border: 1px solid #828b93;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo p {
+  margin-top: 4px;
+  color: #828b93;
+  font-weight: light;
+}
+
+.container.active .logo {
+  border-color: white;
+}
+
+.container.active .logo p {
+  color: white;
+}
+
+.logo .figure {
+  border-radius: 50%;
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 8px;
+  background: #343434;
+}
+
+.price-value {
+  border: 1px solid #828b93;
+  border-radius: 14px;
+  /* padding: 12px 24px; */
+  padding-block: 12px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-top: 8px;
+  align-items: center;
+}

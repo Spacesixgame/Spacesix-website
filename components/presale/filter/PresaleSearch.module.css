@@ -1,0 +1,28 @@
+.search-form {
+  margin-block: 3rem 2rem;
+}
+
+.input-left-element {
+  color: #828b93;
+  display: flex;
+  align-self: center;
+}
+
+.search-form input {
+  border: 1px solid #828b93;
+  border-radius: 10px;
+  padding: 0.3rem 2rem;
+  background-color: inherit;
+  width: 100%;
+  color: white;
+}
+
+.search-form input::placeholder {
+  font-size: smaller;
+}
+
+@media screen and (max-width: 768px) {
+  .search-form {
+    margin-block: 0;
+  }
+}

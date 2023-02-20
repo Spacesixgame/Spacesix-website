@@ -1,0 +1,22 @@
+.items {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.items .item {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .items {
+    margin-block: 3rem;
+    max-width: 90%;
+  }
+  .items .item {
+    max-width: 100px;
+  }
+}

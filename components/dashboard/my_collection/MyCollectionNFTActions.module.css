@@ -1,0 +1,30 @@
+.modals{
+  display: flex;
+  flex-direction: column;
+}
+.modals button {
+  /* border-radius: 14px;
+  color: #828b93;
+  border: 1px solid #828b93;
+  margin-bottom: 16px; */
+}
+
+/* .modals button:hover {
+  background: linear-gradient(
+    to right,
+    var(--green-blue) 0%,
+    var(--purple) 50%,
+    var(--orange-yellow) 100%
+  );
+  color: var(--black); */
+/* } */
+
+/* .modals button:focus {
+  background-color: inherit;
+  border-color: inherit;
+  outline: inherit;
+  box-shadow: none;
+} */
+
+@media screen and (max-width: 768px) {
+}

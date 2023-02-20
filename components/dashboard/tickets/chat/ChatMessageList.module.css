@@ -1,0 +1,35 @@
+.list {
+  max-height: 70vh;
+  overflow-y: scroll;
+  padding-block: 12px;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.message {
+  display: flex;
+  align-items: flex-end;
+  padding: 8px 10px;
+}
+
+.message > div {
+  padding: 8px 12px;
+}
+
+.message Figure {
+  object-fit: cover;
+  height: 32px;
+  width: 32px;
+}
+
+.message Figure img {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .list {
+    max-height: 90%;
+  }
+}

@@ -1,0 +1,30 @@
+/* .nft-item__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
+}
+
+.nft-item__price p {
+  line-height: 24px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.nft-item__price-logo {
+  border-radius: 50%;
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 8px;
+  background: #343434;
+} */
+
+
+.prices{
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}

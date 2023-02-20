@@ -1,0 +1,15 @@
+.oppener {
+  min-height: 40px;
+  margin: 10px;
+  position: relative;
+}
+
+.icon {
+  font-size: x-large;
+}
+.header {
+  background-color: #212121;
+}
+.body {
+  background-color: #212121;
+}

@@ -1,0 +1,37 @@
+.social-layout {
+    position: relative;
+}
+
+.social-layout .lottie_social_media {
+    width: 200px;
+    position: absolute;
+    top: -30%;
+    right: 50%;
+    transform: translate(50% , 0);
+}
+
+@media screen and (max-width: 576px) {
+    .social-layout {
+        margin-block: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .social-layout .lottie_social_media {
+        width: 100px;
+        position: absolute;
+        top: -30%;
+        right: 50%;
+        transform: translate(50% , 0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .social-layout .lottie_social_media {
+        width: 100px;
+        position: absolute;
+        top: -20%;
+        right: 50%;
+        transform: translate(50% , 0);
+    }
+}

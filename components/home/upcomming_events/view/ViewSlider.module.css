@@ -1,0 +1,33 @@
+.slider {
+  width: 45%;
+  display: flex;
+  min-width: 450px;
+}
+
+.card {
+  border-radius: 20px;
+  width: 400px;
+  margin-inline: 24px;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 998px) {
+  .slider {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    width: 100%;
+    min-width: 200px;
+  }
+
+  .card {
+    margin-inline: auto;
+    width: 100%;
+    /* max-width: 350px; */
+  }
+}

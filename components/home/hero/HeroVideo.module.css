@@ -1,0 +1,54 @@
+/* @-webkit-keyframes fadeinout {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
+@keyframes fadeinout {
+  /* 0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  } */
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.hero-video {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+.hero-video__container.hide {
+  opacity: 0;
+  -webkit-animation: fadeinout 0.5s linear forwards;
+  animation: fadeinout 0.5s linear forwards;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-video__container {
+    display: none;
+  }
+}

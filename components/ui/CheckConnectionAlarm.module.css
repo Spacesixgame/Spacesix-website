@@ -1,0 +1,12 @@
+.alarm {
+  font-size: large;
+  font-weight: 600;
+  border-radius: 2%;
+  margin: auto;
+  width: auto;
+  display: flex;
+  height: 100vh;
+  padding-top: 4rem;
+  justify-content: center;
+  color: rgb(219, 219, 219);
+}

@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form p {
+  margin-bottom: 20px;
+}
+.form textarea,
+.form input {
+  background-color: inherit;
+  margin-top: 8px;
+  border-radius: 5px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #404040;
+}
+
+.form textarea {
+  min-height: 400px;
+}
+
+.form .input-group {
+  position: relative;
+}
+.form .input-group span {
+  position: absolute;
+  top: -2px;
+  left: 10px;
+  font-size: small;
+  background-color: #212121;
+  padding-inline: 5px;
+  color: #828b93;
+}
+
+.form .input-group input {
+  width: 100%;
+}
+
+.form .input-group input::placeholder {
+  color: white;
+}
+
+.form .actions {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.form .actions .cancel {
+  border: 1px solid #828b93;
+  color: #828b93;
+  margin-right: 8px;
+}

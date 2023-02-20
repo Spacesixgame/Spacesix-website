@@ -1,0 +1,62 @@
+.menu-button {
+  position: relative;
+  border: 1px solid #828b93;
+  min-width: 20%;
+  padding-inline: 0.9rem;
+  border: 1px solid #444444;
+  border-radius: 12px;
+  height: 40px;
+}
+
+.menu-button div {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  font-size: smaller;
+}
+
+.menu-button span.label {
+  position: absolute;
+  font-size: x-small;
+  color: #828b93;
+  background-color: var(--black);
+  padding-inline: 5px;
+  top: -10px;
+  left: 10px;
+}
+
+.menu-list {
+  background-color: var(--black);
+  border-radius: 12px;
+  min-width: 200px;
+  border: 1px solid #444444;
+  overflow: hidden;
+  padding: 0;
+}
+
+.menu-item {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.menu-item:hover {
+  background-color: #444444;
+}
+
+.active {
+  background: radial-gradient(
+    100% 235.93% at 100% 28.41%,
+    var(--orange-yellow) 0%,
+    var(--purple) 50%,
+    var(--green-blue) 100%
+  );
+  -webkit-background-clip: text;
+  font-weight: 500;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.icon {
+  margin-left: auto;
+  display: flex;
+}

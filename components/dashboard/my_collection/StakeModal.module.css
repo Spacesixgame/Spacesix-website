@@ -1,0 +1,33 @@
+.modal {
+  min-width: 50%;
+  top: 5%;
+}
+
+
+.zone {
+  font-size: larger;
+  margin-bottom: 4px;
+}
+
+.warning {
+  display: flex;
+  margin-top: 16px;
+}
+
+.warning .icon {
+  font-size: x-large;
+  margin-right: 8px;
+}
+
+.warning,
+.warning p {
+  color: #ef4444;
+}
+
+.checkboxes {
+  margin-top: 32px;
+}
+
+.description {
+  color: #828b93;
+}

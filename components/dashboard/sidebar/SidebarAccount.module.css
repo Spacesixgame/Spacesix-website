@@ -1,0 +1,15 @@
+.account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.account p {
+  font-weight: bolder;
+}
+
+.account img {
+  border-radius: 12px;
+}

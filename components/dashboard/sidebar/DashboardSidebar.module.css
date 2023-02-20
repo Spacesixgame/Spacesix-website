@@ -1,0 +1,21 @@
+.sidebar-large {
+  background: #212121;
+  min-height: 100vh;
+  min-width: 280px;
+  padding: 32px 32px;
+  border-radius: 0 0 12px 0;
+}
+
+.sidebar-small {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-large {
+    display: none;
+  }
+
+  .sidebar-small {
+    display: block;
+  }
+}

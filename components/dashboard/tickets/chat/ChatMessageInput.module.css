@@ -1,0 +1,27 @@
+.input-group {
+  max-width: 95%;
+  position: absolute !important;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input-group input {
+  background-color: #212121;
+  border: none;
+  border-radius: 12px;
+}
+
+.action {
+  background: radial-gradient(
+    100% 772.84% at 100% 0%,
+    var(--orange-yellow) 0%,
+    var(--purple) 49.37%,
+    var(--green-blue) 100%
+  );
+}
+
+.icon {
+  color: #000;
+  transform: rotate(45deg);
+}

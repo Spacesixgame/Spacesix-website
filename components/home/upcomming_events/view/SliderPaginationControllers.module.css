@@ -1,0 +1,28 @@
+.controller {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-block: auto;
+  border: 1px solid #828b93;
+  border-radius: 12px;
+}
+
+.controller .icon {
+  color: #828b93;
+}
+
+.controller:hover .icon,
+.controller:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .controller {
+    display: none;
+  }
+}

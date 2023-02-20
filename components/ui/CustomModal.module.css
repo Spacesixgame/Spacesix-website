@@ -1,0 +1,90 @@
+.modal-openner {
+  background-color: inherit;
+  border: none;
+  padding: 0;
+  padding-inline: 5px;
+  outline: none;
+  box-shadow: none;
+  --bs-btn-focus-shadow-rgb: none;
+}
+
+.modal-openner:active,
+.modal-openner:focus,
+.modal-openner:hover {
+  border-color: inherit;
+  background-color: inherit;
+  outline: none;
+  box-shadow: none;
+}
+
+.modal {
+  --bs-modal-color: #fff;
+  --bs-modal-bg: #212121;
+  --bs-modal-header-border-color: none;
+  --bs-modal-footer-border-width: 0px;
+}
+
+.modal button {
+  --bs-btn-focus-shadow-rgb: none;
+  border: none;
+  outline: none;
+}
+
+.dialog {
+  transform: translate(-50%, -50%);
+  top: 30%;
+  width: 85%;
+  max-width: 450px;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+.header {
+  border-bottom: 1px solid #404040;
+  padding: 16px 20px;
+}
+
+.body {
+  padding: 16px 20px;
+}
+
+.modal .close-btn {
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  top: -12px;
+  right: 24px;
+  background: #3e3e3e;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.modal .close-btn:hover,
+.modal .close-btn:active,
+.modal .close-btn:focus {
+  background-color: #3e3e3e69;
+  border: none;
+}
+
+.modal .close-btn .icon {
+  font-size: large;
+  font-weight: bold;
+  margin: auto;
+}
+
+.modal .cancel {
+  border: 1px solid #828b93;
+  color: #828b93;
+  margin-right: 8px;
+  background-color: inherit;
+  outline: none;
+}
+
+.modal .cancel:hover {
+  border-color: #fff;
+  color: #fff;
+  background-color: inherit;
+}

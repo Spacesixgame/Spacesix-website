@@ -1,0 +1,33 @@
+.pagination {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  padding-block: 12px;
+  justify-content: center;
+  bottom: -18px;
+}
+
+.pagination li {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-inline: 6px;
+}
+
+.pagination .active {
+  background: radial-gradient(
+    100% 772.84% at 100% 0%,
+    #f9d267 0%,
+    #f2adff 49.37%,
+    #acf0ff 100%
+  );
+}
+
+@media screen and (max-width: 768px) {
+  .pagination {
+    bottom: -15px;
+  }
+}

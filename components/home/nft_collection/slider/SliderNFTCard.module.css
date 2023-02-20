@@ -1,0 +1,13 @@
+.card {
+  width: 300px;
+  min-height: 320px;
+  background-color: #2b2b2b;
+  border-radius: 12px;
+  padding: 8px 8px 12px 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.media {
+  max-height: 300px;
+}

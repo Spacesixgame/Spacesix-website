@@ -1,0 +1,16 @@
+ul.attributes {
+  margin-block: 16px 0;
+  padding: 0;
+}
+
+.attributes > li {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 6px;
+  flex-wrap: wrap;
+}
+
+.attributes > li p:first-child {
+  color: #828b93;
+  text-align: start;
+}

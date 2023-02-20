@@ -1,0 +1,23 @@
+/* .gradient-bg {
+  background-image: linear-gradient(
+    to right,
+    var(--purple),
+    var(--green-blue),
+    var(--orange-yellow)
+  );
+}
+
+.gradient-border {
+  border: 2px solid #0000;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(90deg, #b13d92, #bfd117) border-box;
+}
+
+.gradient-button {
+  background: radial-gradient(
+    100% 772.84% at 100% 0%,
+    var(--orange-yellow) 0%,
+    var(--purple) 49.37%,
+    var(--green-blue) 100%
+  );
+} */

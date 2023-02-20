@@ -1,0 +1,25 @@
+.star-container {
+  position: absolute;
+  min-height: min-content;
+}
+
+.star1-container {
+  bottom: 16%;
+  right: 9%;
+}
+
+.star2-container {
+  top: 5%;
+  right: 40%;
+}
+
+.star3-container {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.star4-container {
+  left: 2%;
+  top: 4%;
+}

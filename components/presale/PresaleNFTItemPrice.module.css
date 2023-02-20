@@ -1,0 +1,4 @@
+.nft-item__price {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.home__upcomming-events {
+  margin: auto;
+  min-height: 900px;
+  position: relative;
+}
+
+.upcomming-layout {
+}
+
+@media screen and (max-width: 768px) {
+  .home__upcomming-events {
+    padding: 2rem 2rem;
+  }
+}

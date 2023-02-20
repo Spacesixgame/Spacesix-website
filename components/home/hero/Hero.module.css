@@ -1,0 +1,38 @@
+.hero-main {
+  display: flex;
+  padding: 0 6rem;
+  min-height: 650px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.8s linear;
+}
+
+/* .layout-cirlcle {
+  position: absolute;
+  background-color: rgba(203, 68, 76, 0.1);
+  top: 0;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  right: -25%;
+  top: 50px;
+  filter: blur(80px);
+} */
+
+@media screen and (max-width: 768px) {
+  .hero-main {
+    padding: 5rem 1.5rem;
+  }
+
+  .layout-cirlcle {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .hero-main {
+    min-height: 350px;
+  }
+}

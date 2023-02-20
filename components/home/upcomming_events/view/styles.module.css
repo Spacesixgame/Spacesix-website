@@ -1,0 +1,11 @@
+.view {
+  display: flex;
+  padding-block: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .view {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}

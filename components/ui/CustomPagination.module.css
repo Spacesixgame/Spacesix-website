@@ -1,0 +1,75 @@
+.cusutom-pagination {
+  --bs-pagination-bg: inherit;
+  --bs-pagination-border-width: 0px;
+  --bs-pagination-hover-color: #fff;
+  --bs-pagination-hover-bg: inheirt;
+  --bs-pagination-active-bg: #212121;
+  --bs-pagination-padding-x: 1rem;
+  --bs-pagination-padding-y: 0.5rem;
+  --bs-pagination-font-size: 1rem;
+  --bs-pagination-disabled-bg: #21212178;
+  --bs-pagination-disabled-border-color: #21212178;
+  --bs-pagination-color: #828b93;
+  --bs-pagination-focus-bg: inherit;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+li.page-item {
+  padding: 0;
+  border: none;
+  border-radius: 8px !important;
+  margin-inline: 0.5rem;
+}
+
+li.page-item span {
+  border-radius: 8px;
+}
+
+.page-item p {
+  margin: 0;
+}
+
+li.page-action {
+  padding: 0;
+  border: 2px solid #828b93 !important;
+  border-radius: 8px;
+  margin-inline: 0.5rem;
+  color: #828b93;
+  margin-inline: 1rem;
+}
+
+li.page-action.disabled {
+  opacity: 0.7;
+  border: 1px solid #21212178 !important;
+}
+
+/* .page-item:hover {
+  background-color: inheirt;
+} */
+
+/* .page-item.active p {
+  color: #fff;
+} */
+
+/* .page-item.active .page-link {
+  border-color: #d1d11b;
+  background-color: #264444;
+}
+
+.page-item a,
+.page-link:hover {
+  color: #134447;
+}
+
+.page-item.active .page-link {
+  border-color: var(--dark);
+  background-color: #f655;
+} */
+
+@media screen and (max-width: 768px) {
+  li.page-item {
+    margin-inline: 0.1rem;
+  }
+}

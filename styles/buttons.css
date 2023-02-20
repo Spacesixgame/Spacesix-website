@@ -1,0 +1,53 @@
+.primary-btn {
+  background: radial-gradient(
+    100% 772.84% at 100% 0%,
+    #f9d267 0%,
+    #f2adff 49.37%,
+    #acf0ff 100%
+  );
+  color: #000000;
+  border-radius: 16px;
+  transition: border-radius 0.5s !important;
+  font-weight: 700;
+}
+
+.primary-btn:hover {
+  border-radius: 32px;
+}
+
+.primary-btn:focus {
+  color: #fff;
+}
+
+.primary-btn:disabled {
+  background: linear-gradient(
+      0deg,
+      rgba(21, 21, 21, 0.32),
+      rgba(21, 21, 21, 0.32)
+    ),
+    radial-gradient(
+      100% 772.84% at 100% 0%,
+      #f9d267 0%,
+      #f2adff 49.37%,
+      #acf0ff 100%
+    );
+  cursor: not-allowed;
+}
+
+.border-btn {
+  background-color: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+}
+
+.border-btn:hover {
+  background: #242424;
+}
+
+.border-btn:disabled {
+  opacity: 0.7;
+}
+
+.border-btn:focus {
+  background: #454545;
+}

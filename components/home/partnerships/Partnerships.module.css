@@ -1,0 +1,30 @@
+.partnerships-layout {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.partnerships-layout .lottie1{
+  position: absolute;
+  width: 200px;
+  top: -10%;
+  right: 50%;
+  transform: translate(50% , -50%);
+}
+
+@media screen and (max-width: 425px) {
+  .partnerships-layout .lottie1{
+    width: 100px;
+    top: -10%;
+    right: 50%;
+    transform: translate(50% , -50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .partnerships-layout .lottie1{
+    width: 100px;
+    top: -10%;
+    right: 50%;
+    transform: translate(50% , -50%);
+  }
+}

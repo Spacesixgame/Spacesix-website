@@ -1,0 +1,30 @@
+.list {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.list .lottie1 {
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(95%);
+}
+
+@media screen and (max-width: 768px) {
+    .list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list .lottie1 {
+        position: absolute;
+        width: 40%;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(100%);
+    }
+}
